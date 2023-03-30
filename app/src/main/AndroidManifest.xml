@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.firebase2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/pin"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Firebase2">
+        <activity
+            android:name=".ass2.Notes"
+            android:exported="true" />
+        <activity
+            android:name=".ass2.Details"
+            android:exported="true" />
+        <activity
+            android:name=".ass2.Categories"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".ass1.MainActivity"
+            android:exported="true"></activity>
+        <activity
+            android:name=".ass1.add"
+            android:exported="true" />
+        <activity
+            android:name=".activityLab.home"
+            android:exported="true" />
+        <activity
+            android:name=".activityLab.signIn"
+            android:exported="true" />
+        <activity
+            android:name=".activityLab.createAccount"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
