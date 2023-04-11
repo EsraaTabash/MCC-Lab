@@ -43,9 +43,9 @@ class signIn : AppCompatActivity() {
         }
 
     }
+
     private fun loginUser(email: String, pass: String) {
-        auth.signInWithEmailAndPassword(email, pass).addOnCompleteListener(this) {
-                task ->
+        auth.signInWithEmailAndPassword(email, pass).addOnCompleteListener(this) { task ->
             if (task.isSuccessful) {
                 val user = auth.currentUser
                 Log.d("tag", "signinUser:Success")
@@ -55,7 +55,7 @@ class signIn : AppCompatActivity() {
                 Log.d("tag", "signinUserWithEmail:failure", task.exception)
                 Toast.makeText(this, "Authentication failed.", Toast.LENGTH_SHORT).show()
             }
-            }
         }
     }
+}
 

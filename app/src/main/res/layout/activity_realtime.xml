@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#6197EC"
+    tools:context=".activityLab2.realtime">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/messages_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="vertical" />
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:id="@+id/message_type_layout"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@android:color/white"
+        android:elevation="8dp"
+        android:minHeight="?attr/actionBarSize">
+
+        <EditText
+            android:id="@+id/message_type_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="100dp"
+            android:layout_toStartOf="@+id/send_button"
+            android:background="@null"
+            android:fontFamily="@font/aref_menna_normal"
+            android:hint="Type a message"
+            android:inputType="textMultiLine"
+            android:maxLines="3"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/send_button"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="11dp"
+            android:layout_marginStart="-60dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/ic_baseline_send_24"
+            android:contentDescription="Send message"
+            android:elevation="4dp" />
+
+    </RelativeLayout>
+</LinearLayout>

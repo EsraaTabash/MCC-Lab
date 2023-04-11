@@ -3,6 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Esraa/MCCmoblie_cloud_computing/firebase2Ass/app/src/main/res/font/font.xml" value="0.28020833333333334" />
+        <entry key="..\:/Users/Esraa/MCCmoblie_cloud_computing/firebase2Ass/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/Users/Esraa/MCCmoblie_cloud_computing/firebase2Ass/app/src/main/res/layout/activity_notes.xml" value="0.25" />
+        <entry key="..\:/Users/Esraa/MCCmoblie_cloud_computing/firebase2Ass/app/src/main/res/layout/activity_realtime.xml" value="0.1" />
+        <entry key="..\:/Users/Esraa/MCCmoblie_cloud_computing/firebase2Ass/app/src/main/res/layout/message_item.xml" value="0.1" />
         <entry key="..\:/Users/Esraa/StudioProjects/MCCmoblie_cloud_computing/firebase2Ass/app/src/main/res/drawable/btn_backgroung.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/Esraa/StudioProjects/MCCmoblie_cloud_computing/firebase2Ass/app/src/main/res/drawable/custom_input.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/Esraa/StudioProjects/MCCmoblie_cloud_computing/firebase2Ass/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.26614583333333336" />
@@ -12,7 +17,7 @@
         <entry key="..\:/Users/Esraa/StudioProjects/MCCmoblie_cloud_computing/firebase2Ass/app/src/main/res/layout/activity_categories.xml" value="0.25" />
         <entry key="..\:/Users/Esraa/StudioProjects/MCCmoblie_cloud_computing/firebase2Ass/app/src/main/res/layout/activity_create_account.xml" value="0.25" />
         <entry key="..\:/Users/Esraa/StudioProjects/MCCmoblie_cloud_computing/firebase2Ass/app/src/main/res/layout/activity_details.xml" value="0.264" />
-        <entry key="..\:/Users/Esraa/StudioProjects/MCCmoblie_cloud_computing/firebase2Ass/app/src/main/res/layout/activity_home.xml" value="0.1" />
+        <entry key="..\:/Users/Esraa/StudioProjects/MCCmoblie_cloud_computing/firebase2Ass/app/src/main/res/layout/activity_home.xml" value="0.264" />
         <entry key="..\:/Users/Esraa/StudioProjects/MCCmoblie_cloud_computing/firebase2Ass/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/Esraa/StudioProjects/MCCmoblie_cloud_computing/firebase2Ass/app/src/main/res/layout/activity_main2.xml" value="0.27247451343836887" />
         <entry key="..\:/Users/Esraa/StudioProjects/MCCmoblie_cloud_computing/firebase2Ass/app/src/main/res/layout/activity_notes.xml" value="0.25" />

@@ -24,10 +24,12 @@ class createAccount : AppCompatActivity() {
     public override fun onStart() {
         super.onStart()
         val currentUser = auth.currentUser
-        if(currentUser != null){
+        if (currentUser != null) {
             var i = Intent(this, home::class.java)
-            startActivity(i)        }
+            startActivity(i)
+        }
     }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_create_account)
@@ -49,16 +51,21 @@ class createAccount : AppCompatActivity() {
             } else if (passTxt.text.toString().isEmpty()) {
                 passTxt.error = "Fill this field"
                 passTxt.requestFocus()
-            }else {
-                auth.createUserWithEmailAndPassword(emailTxt.text.toString(), passTxt.text.toString())
+            } else {
+                auth.createUserWithEmailAndPassword(
+                    emailTxt.text.toString(),
+                    passTxt.text.toString()
+                )
                     .addOnCompleteListener(this) { task ->
                         if (task.isSuccessful) {
                             val user = auth.currentUser
                             Log.d("tag", "createUser:Success")
                             var i = Intent(this, home::class.java)
-                            startActivity(i)                        } else {
+                            startActivity(i)
+                        } else {
                             Log.d("tag", "createUserWithEmail:failure", task.exception)
-                            Toast.makeText(this, "Authentication failed.", Toast.LENGTH_SHORT).show()
+                            Toast.makeText(this, "Authentication failed.", Toast.LENGTH_SHORT)
+                                .show()
                         }
                     }
             }

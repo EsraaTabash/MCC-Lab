@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Firebase2">
         <activity
+            android:name=".activityLab2.realtime"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".ass2.Notes"
             android:exported="true" />
         <activity
@@ -17,11 +26,10 @@
             android:exported="true" />
         <activity
             android:name=".ass2.Categories"
-            android:exported="true">
-        </activity>
+            android:exported="true"></activity>
         <activity
             android:name=".ass1.MainActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".ass1.add"
             android:exported="true" />
@@ -34,11 +42,6 @@
         <activity
             android:name=".activityLab.createAccount"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 
